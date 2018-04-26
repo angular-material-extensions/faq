@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">{{title}}</mat-toolbar>
+<mat-accordion [displayMode]="displayMode" [multi]="multi"
+               class="faq-container">
+  <mat-expansion-panel *ngFor="let faqItem of faqList">
+    <mat-expansion-panel-header>{{faqItem.question}}</mat-expansion-panel-header>
+    <p>{{faqItem.answer}}</p>
+  </mat-expansion-panel>
+</mat-accordion>
