@@ -1,0 +1,39 @@
+{
+  "generator-ngx-library": {
+    "version": "5.7.1",
+    "authorName": "anthonynahas",
+    "authorEmail": "anthony.na@hotmail.de",
+    "githubUsername": "anthonynahas",
+    "githubRepoName": "ngx-material-faq",
+    "projectName": "ngx-material-faq",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular Library built with material design in order to provide a reusable faq (frequently asked questions) component for every project. Ask, Answer and List",
+    "projectKeywords": [
+      "ngx",
+      " angular",
+      " library",
+      " faq",
+      " material",
+      " asking",
+      " questions",
+      " answers"
+    ],
+    "ngVersion": "5.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "ngx-material",
+    "testingFramework": "jest",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "config/karma.conf.js",
+      "config/webpack.test.js",
+      "config/karma-test-shim.js"
+    ]
+  }
+}
