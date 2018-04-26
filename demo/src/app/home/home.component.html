@@ -1,0 +1,39 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 d-flex justify-content-center justify-content-md-end">
+        <img src="assets/logo.svg" alt="ngx-material-faq logo" class="logo">
+      </div>
+      <div class="col-sm-8 text-center text-md-left">
+        <h1>ngx-material-faq</h1>
+        <p>Angular Library built with material design in order to provide a reusable faq (frequently asked questions)
+          component for every project. Ask, Answer and List</p>
+        <p>Scroll down to see it in action!</p>
+        <p class="buttons">
+          <a class="btn btn-outline-primary btn-lg" href="https://github.com/anthonynahas/ngx-material-faq"
+             target="_blank"><i class="fa fa-github fa-lg"></i> Code on Github</a>
+          <a class="btn btn-outline-primary btn-lg" href="doc/index.html" target="_blank"><i
+            class="fa fa-book fa-lg"></i> Documentation</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<section class="home">
+  <div class="container">
+    <ngx-material-faq-admin [title]="'Admin'" (onFAQItemAdded)="onNewFaqItem($event)"></ngx-material-faq-admin>
+    <!--ngx-material-faq-->
+  </div>
+</section>
+<section class="home" style="margin: 2rem 0 2rem 0">
+  <div class="container">
+    <ngx-material-faq [faqList]="faq"></ngx-material-faq>
+    <a href="https://github.com/angular/angular.js/wiki/FAQ"
+       mat-button
+       color="primary">
+      Check the original FAQ from
+      AngularJS</a>
+  </div>
+</section>
