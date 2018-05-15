@@ -108,28 +108,28 @@
           <div fxLayout="column" fxLayoutAlign="center">
             <video *ngIf="true" controls autoplay loop>
               <source
-                src="../../assets/tutorials/ng_g_appname2.mp4"
+                src="assets/tutorials/ng_g_appname2.mp4"
                 type="video/mp4">
             </video>
-
+            <!---->
             <div class="comment-container">
               <p>waiting......</p>
             </div>
-
+            <!---->
             <video *ngIf="true" controls autoplay loop>
               <source
-                src="../../assets/tutorials/ng_g_appname_done2.mp4"
+                src="assets/tutorials/ng_g_appname_done2.mp4"
                 type="video/mp4">
             </video>
-
+            <!---->
             <div class="comment-container">
               <p> When the angular cli is done with generating the project, navigate to you your app
                 and check the project structure.</p>
             </div>
-
+            <!---->
             <video *ngIf="true" controls autoplay loop>
               <source
-                src="../../assets/tutorials/cd_angularapp.mp4"
+                src="assets/tutorials/cd_angularapp.mp4"
                 type="video/mp4">
             </video>
           </div>
@@ -313,7 +313,7 @@
           <div class="comment-container">
             <p>Or, if you want to host the material design icons by yourself, please follow these two steps.</p>
           </div>
-
+          <!---->
           <div class="comment-container">
             <p>First, install the <a href="https://www.npmjs.com/package/material-design-icons"
                                      mat-button color="primary">material design icons' npm module</a></p>
@@ -340,8 +340,8 @@
             <p>First of all, copy the path of the material design icons</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-            <pre><code highlight
-                       [code]="'../node_modules/material-design-icons/iconfont/material-icons.css'"></code></pre>
+      <pre><code highlight
+                 [code]="'../node_modules/material-design-icons/iconfont/material-icons.css'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'../node_modules/material-design-icons/iconfont/material-icons.css'"
@@ -355,8 +355,8 @@
           </div>
           <mat-card-subtitle>Before</mat-card-subtitle>
           <div fxLayout="row" fxLayoutAlign="space-between">
-            <pre><code highlight
-                       [code]="stylesBeforeImportMDI"></code></pre>
+      <pre><code highlight
+                 [code]="stylesBeforeImportMDI"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="stylesBeforeImportMDI"
@@ -367,8 +367,8 @@
           </div>
           <mat-card-subtitle>After</mat-card-subtitle>
           <div fxLayout="row" fxLayoutAlign="space-between">
-            <pre><code highlight
-                       [code]="stylesAfterImportMDI"></code></pre>
+      <pre><code highlight
+                 [code]="stylesAfterImportMDI"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="stylesAfterImportMDI"
@@ -380,7 +380,7 @@
           <div fxLayoutAlign="center">
             <video *ngIf="true" controls autoplay loop>
               <source
-                src="../../assets/tutorials/material_design_icons_self_hosting.mp4"
+                src="assets/tutorials/material_design_icons_self_hosting.mp4"
                 type="video/mp4">
             </video>
           </div>
@@ -407,8 +407,8 @@
             from npm
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-            <pre><code highlight
-                       [code]="'$ npm i -s ngx-material-faq'"></code></pre>
+      <pre><code highlight
+                 [code]="'$ npm i -s ngx-material-faq'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'npm i -s ngx-material-faq'"
@@ -417,13 +417,13 @@
               <mat-icon aria-label="copy content" class="mat-18">content_copy</mat-icon>
             </button>
           </div>
-          <div fxLayoutAlign="center">
-            <video *ngIf="true" controls autoplay loop>
-              <source
-                src="../../assets/tutorials/npm_i_ngx_material_password_strength.mp4"
-                type="video/mp4">
-            </video>
-          </div>
+          <!--<div fxLayoutAlign="center">-->
+            <!--<video *ngIf="true" controls autoplay loop>-->
+              <!--<source-->
+                <!--src="assets/tutorials/npm_i_ngx_material_password_strength.mp4"-->
+                <!--type="video/mp4">-->
+            <!--</video>-->
+          <!--</div>-->
           <div class="comment-container">
             <p>Now you just need to import the library </p>
           </div>
@@ -436,8 +436,8 @@
             </mat-card-subtitle>
             <mat-card-content>
               <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="systemJSModuleImport"></code></pre>
+      <pre><code highlight
+                 [code]="systemJSModuleImport"></code></pre>
                 <button mat-icon-button
                         ngxClipboard
                         [cbContent]="systemJSModuleImport"
@@ -452,8 +452,8 @@
             <p>Once installed you need to import the main module:</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="importNgxMaterialFaqModule"></code></pre>
+      <pre><code highlight
+                 [code]="importNgxMaterialFaqModule"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="importNgxMaterialFaqModule"
@@ -471,8 +471,8 @@
               (usally app.component.ts)</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="importNgxMaterialFaqModuleInAppModule"></code></pre>
+      <pre><code highlight
+                 [code]="importNgxMaterialFaqModuleInAppModule"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="importNgxMaterialFaqModuleInAppModule"
@@ -485,8 +485,8 @@
             <p>Other modules in your application can simply import NgxMaterialFaqModule:</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="importNgxMaterialFaqModuleInOtherModule"></code></pre>
+      <pre><code highlight
+                 [code]="importNgxMaterialFaqModuleInOtherModule"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="importNgxMaterialFaqModuleInOtherModule"
@@ -515,18 +515,26 @@
                          [code]="componentExample"></code></pre>
 
             </div>
+
+            <div class="comment-container">
+              <p>and the following to your component</p>
+
+              <pre><code highlight
+                         [code]="componentExampleInComponent"></code></pre>
+
+            </div>
           </mat-card-content>
 
           <mat-card>
             <mat-card-title>Example of ngx-material-faq</mat-card-title>
             <mat-card-content>
-              <div class="container">
-                <ngx-material-faq title="ngx-material-faq" [faqList]="faq"></ngx-material-faq>
-                <a href="https://github.com/angular/angular.js/wiki/FAQ"
-                   mat-button
-                   color="primary">
-                  Check the original FAQ from
-                  AngularJS</a>
+
+              <div class="comment-container">
+                <p>and the following to your component</p>
+
+                <pre><code highlight
+                           [code]="adminComponentExampleInComponent"></code></pre>
+
               </div>
             </mat-card-content>
           </mat-card>
@@ -542,8 +550,8 @@
           <mat-card>
             <mat-card-title>Example of ngx-material-faq-admin</mat-card-title>
             <mat-card-content>
-              <ngx-material-faq-admin [title]="'ngx-material-faq-admin'"
-                                      (onFAQItemAdded)="onNewFaqItem($event)"></ngx-material-faq-admin>
+              <!--<ngx-material-faq-admin [title]="'ngx-material-faq-admin'"-->
+              <!--(onFAQItemAdded)="onNewFaqItem($event)"></ngx-material-faq-admin>-->
             </mat-card-content>
           </mat-card>
 
@@ -555,10 +563,11 @@
       <!--8-->
       <ngx-material-page-loader>
         <ngx-material-page-outlook title="Run demo locally">
-          <img style="width: 50px; height: 50px" src="../../assets/icons/github.svg">
+          <img style="width: 50px; height: 50px" src="assets/icons/github.svg">
         </ngx-material-page-outlook>
         <ngx-material-page-content>
           <mat-card-title-group><a href="https://github.com/AnthonyNahas/ngx-material-faq"
+                                   target="_blank"
                                    mat-button
                                    color="primary">Clone the repo</a></mat-card-title-group>
           <mat-card-title>Interested? Try it out on your machine
@@ -567,8 +576,8 @@
             <p>Clone this repo by running this following command</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="'git clone https://github.com/AnthonyNahas/ngx-material-faq.git'"></code></pre>
+          <pre><code highlight
+                     [code]="'git clone https://github.com/AnthonyNahas/ngx-material-faq.git'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'git clone https://github.com/AnthonyNahas/ngx-material-faq.git'"
@@ -581,8 +590,8 @@
             <p>navigate to the demo directory</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="'$ cd demo'"></code></pre>
+          <pre><code highlight
+                     [code]="'$ cd demo'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'cd demo'"
@@ -595,8 +604,8 @@
             <p>install the dependencies</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="'$ npm i'"></code></pre>
+          <pre><code highlight
+                     [code]="'$ npm i'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'npm i'"
@@ -609,8 +618,8 @@
             <p>start the app</p>
           </div>
           <div fxLayout="row" fxLayoutAlign="space-between">
-                 <pre><code highlight
-                            [code]="'$ ng serve --open'"></code></pre>
+          <pre><code highlight
+                     [code]="'$ ng serve --open'"></code></pre>
             <button mat-icon-button
                     ngxClipboard
                     [cbContent]="'ng serve --open'"

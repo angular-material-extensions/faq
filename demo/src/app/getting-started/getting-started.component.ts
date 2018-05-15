@@ -108,10 +108,47 @@ export class GettingStartedComponent implements OnInit {
                                                 }`;
 
   componentExample = `<ngx-material-faq [faqList]="list"></ngx-material-faq>`;
+  componentExampleInComponent = `import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+        import {FaqItem} from 'ngx-material-faq';
+
+        export class HomeComponent implements OnInit {
+
+            ngOnInit() {
+            }
+
+          list: FaqItem[] = [
+            {
+                  question: 'Why does it think the jQuery plugin is missing?',
+                  answer: 'Remember: load jQuery before AngularJS if you are using jQuery plugins!'
+                },
+                {
+                  question: 'How do I access the DOM from a controller?',
+                  answer: 'DO NOT perform DOM selection/traversal from the controller. The HTML hasn\\'t rendered yet. Look up \\'directives\\'.'
+                }
+          ];
+
+         }`;
 
   adminComponentExample = `<ngx-material-faq-admin [title]="'Admin'"
                           (onFAQItemAdded)="onNewFaqItem($event)">
                            </ngx-material-faq-admin>`;
+
+  adminComponentExampleInComponent = `import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {FaqItem} from 'ngx-material-faq';
+
+export class HomeComponent implements OnInit {
+
+   ngOnInit() {
+      }
+
+  faq: FaqItem[] = [];
+
+  onNewFaqItem(faqItem: FaqItem) {
+      console.log('on new faqItem -> ', faqItem);
+      this.faq.splice(0, 0, faqItem);
+    }
+
+ } `;
 
   faq: FaqItem[] = [
     {

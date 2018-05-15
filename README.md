@@ -25,21 +25,22 @@
 View all the directives in action at https://anthonynahas.github.io/ngx-material-faq
 
 ## Dependencies
-* [Angular](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0)
+* [Angular v6.0.1](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0) - Angular V6 - Material V6 are now supported
 
 ### Requirements (peer dependencies):
-- [angular flex-layout ](https://www.npmjs.com/package/@angular/flex-layout)
-- [angular material ](https://www.npmjs.com/package/@angular/material)
-- [angular material theme](https://material.angular.io/guide/getting-started#step-4-include-a-theme)
-- [angular cdk ](https://www.npmjs.com/package/@angular/cdk)
-- [angular animations ](https://www.npmjs.com/package/@angular/animations)
-- [angular forms ](https://www.npmjs.com/package/@angular/forms)
-- if you need a built in theme --> please let me know
-
+- [angular flex-layout v6.0.0-beta.15](https://www.npmjs.com/package/@angular/flex-layout)
+- [angular material v6.0.2](https://www.npmjs.com/package/@angular/material)
+- [angular cdk v6.0.2](https://www.npmjs.com/package/@angular/cdk)
+- [angular animations v6.0.1](https://www.npmjs.com/package/@angular/animations)
+- [angular forms v6.0.1](https://www.npmjs.com/package/@angular/forms)
 
 ```bash
 npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations @angular/forms 
 ```
+
+### Additional requirements (Material Design)
+- [angular material theme](https://material.angular.io/guide/getting-started#step-4-include-a-theme)
+- [angular material icons](https://material.angular.io/guide/getting-started#step-6-optional-add-material-icons)
 
 
 ## Installation
@@ -47,7 +48,7 @@ Install above dependencies via *npm*.
 
 Now install `ngx-material-faq` via:
 ```shell
-npm install --save ngx-material-faq
+npm install -s ngx-material-faq
 ```
 
 ---
@@ -63,30 +64,30 @@ map: {
 
 Once installed you need to import the main module:
 ```js
-import { LibModule } from 'ngx-material-faq';
+import { NgxMaterialFaqModule } from 'ngx-material-faq';
 ```
 The only remaining part is to list the imported module in your application module. The exact method will be slightly
-different for the root (top-level) module for which you should end up with the code similar to (notice ` LibModule .forRoot()`):
+different for the root (top-level) module for which you should end up with the code similar to (notice ` NgxMaterialFaqModule .forRoot()`):
 ```js
-import { LibModule } from 'ngx-material-faq';
+import { NgxMaterialFaqModule } from 'ngx-material-faq';
 
 @NgModule({
   declarations: [AppComponent, ...],
-  imports: [LibModule.forRoot(), ...],  
+  imports: [NgxMaterialFaqModule.forRoot(), ...],  
   bootstrap: [AppComponent]
 })
 export class AppModule {
 }
 ```
 
-Other modules in your application can simply import ` LibModule `:
+Other modules in your application can simply import ` NgxMaterialFaqModule `:
 
 ```js
-import { LibModule } from 'ngx-material-faq';
+import { NgxMaterialFaqModule } from 'ngx-material-faq';
 
 @NgModule({
   declarations: [OtherComponent, ...],
-  imports: [LibModule, ...], 
+  imports: [NgxMaterialFaqModule, ...], 
 })
 export class OtherModule {
 }
@@ -99,6 +100,8 @@ add the `ngx-material-faq` or the `ngx-material-faq-admin` element to your templ
 
 ### ngx-material-faq
 
+**This component aims to list the provided frequently asked questions**
+
 <p align="center">
   <img alt="ngx-material-faq" style="text-align: center;"
    src="assets/demo-ngx-material-faq.png">
@@ -109,7 +112,13 @@ add the `ngx-material-faq` or the `ngx-material-faq-admin` element to your templ
 ```
 
 ```typescript
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {FaqItem} from 'ngx-material-faq';
+
 export class HomeComponent implements OnInit {
+  
+    ngOnInit() {
+    }
 
   list: FaqItem[] = [
     {
@@ -123,8 +132,13 @@ export class HomeComponent implements OnInit {
   ];
   
  }
+ 
+ ```
 
 ### ngx-material-faq-admin
+
+**This component is actually for admin purposes, like to add a frequently 
+asked question to the backend, firebase ... and so on..**
 
 <p align="center">
   <img alt="ngx-material-faq-admin" style="text-align: center;"
@@ -138,7 +152,13 @@ export class HomeComponent implements OnInit {
 in your component
 
 ```typescript
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {FaqItem} from 'ngx-material-faq';
+
 export class HomeComponent implements OnInit {
+  
+   ngOnInit() {
+      }
 
   faq: FaqItem[] = [];
   
@@ -154,7 +174,7 @@ export class HomeComponent implements OnInit {
 
 ## Development
 
-1. clone this [repo]()
+1. clone this [repo](https://github.com/AnthonyNahas/ngx-material-faq)
 2. Install the dependencies by running `npm i`
 3. build the library `npm run build` or `gulp build`
 To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
@@ -164,10 +184,10 @@ $ npm run build
 ```
 
 4. Link the library 
-  - on windows `gulp link` or `locally npx gulp link`
+  - on windows `gulp link` or locally `npx gulp link`
   - on mac/linux `sudo gulp link` or locally `sudo npx gulp link`
   
- 5. Navigate to the demo app
+ 5. Navigate to the demo app's directory
   - `cd demo`
   _ `npm i`
   _ `npm start`

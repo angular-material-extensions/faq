@@ -1,5 +1,4 @@
 import {NgModule} from '@angular/core';
-import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 
@@ -8,6 +7,7 @@ import {AppSharedModule} from './shared/shared.module';
 import {HomeModule} from './home/home.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule.withServerTransition({appId: 'ngx-material-faq-demo-id'}),
     BrowserAnimationsModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     AppRoutingModule,
     AppSharedModule,
     HomeModule
