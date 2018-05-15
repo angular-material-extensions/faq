@@ -86,14 +86,14 @@
                         <a href="modules/NgxMaterialFaqModule.html" data-type="entity-link">NgxMaterialFaqModule</a>
                             <li class="chapter inner">
                                 <div class="simple menu-toggler" data-toggle="collapse"
-                                        data-target="#xs-components-links-module-NgxMaterialFaqModule-8a849214-56d3-467e-b703-66c6b67100db"
+                                        data-target="#xs-components-links-module-NgxMaterialFaqModule-d226b322-ba9b-4d57-80cb-2d8f2153b896"
                                     >
                                     <span class="fa fa-fw fa-cogs"></span>
                                     <span>Components</span>
                                     <span class="fa fa-angle-down"></span>
                                 </div>
                                 <ul class="links collapse"
-                                        id="xs-components-links-module-NgxMaterialFaqModule-8a849214-56d3-467e-b703-66c6b67100db"
+                                        id="xs-components-links-module-NgxMaterialFaqModule-d226b322-ba9b-4d57-80cb-2d8f2153b896"
                                     >
                                         <li class="link">
                                             <a href="components/NgxMaterialFaqAdminComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgxMaterialFaqAdminComponent</a>
@@ -226,14 +226,14 @@
                         <a href="modules/NgxMaterialFaqModule.html" data-type="entity-link">NgxMaterialFaqModule</a>
                             <li class="chapter inner">
                                 <div class="simple menu-toggler" data-toggle="collapse"
-                                        data-target="#components-links-module-NgxMaterialFaqModule-8a849214-56d3-467e-b703-66c6b67100db"
+                                        data-target="#components-links-module-NgxMaterialFaqModule-d226b322-ba9b-4d57-80cb-2d8f2153b896"
 >
                                     <span class="fa fa-fw fa-cogs"></span>
                                     <span>Components</span>
                                     <span class="fa fa-angle-down"></span>
                                 </div>
                                 <ul class="links collapse"
-                                        id="components-links-module-NgxMaterialFaqModule-8a849214-56d3-467e-b703-66c6b67100db"
+                                        id="components-links-module-NgxMaterialFaqModule-d226b322-ba9b-4d57-80cb-2d8f2153b896"
 >
                                         <li class="link">
                                             <a href="components/NgxMaterialFaqAdminComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgxMaterialFaqAdminComponent</a>
@@ -321,22 +321,25 @@
 <p>View all the directives in action at <a href="https://anthonynahas.github.io/ngx-material-faq">https://anthonynahas.github.io/ngx-material-faq</a></p>
 <h2 id="dependencies">Dependencies</h2>
 <ul>
-<li><a href="https://angular.io">Angular</a> (<em>requires</em> Angular 2 or higher, tested with 2.0.0)</li>
+<li><a href="https://angular.io">Angular v6.0.1</a> (<em>requires</em> Angular 2 or higher, tested with 2.0.0) - Angular V6 - Material V6 are now supported</li>
 </ul>
 <h3 id="requirements-peer-dependencies-">Requirements (peer dependencies):</h3>
 <ul>
-<li><a href="https://www.npmjs.com/package/@angular/flex-layout">angular flex-layout </a></li>
-<li><a href="https://www.npmjs.com/package/@angular/material">angular material </a></li>
-<li><a href="https://material.angular.io/guide/getting-started#step-4-include-a-theme">angular material theme</a></li>
-<li><a href="https://www.npmjs.com/package/@angular/cdk">angular cdk </a></li>
-<li><a href="https://www.npmjs.com/package/@angular/animations">angular animations </a></li>
-<li><a href="https://www.npmjs.com/package/@angular/forms">angular forms </a></li>
-<li>if you need a built in theme --&gt; please let me know</li>
+<li><a href="https://www.npmjs.com/package/@angular/flex-layout">angular flex-layout v6.0.0-beta.15</a></li>
+<li><a href="https://www.npmjs.com/package/@angular/material">angular material v6.0.2</a></li>
+<li><a href="https://www.npmjs.com/package/@angular/cdk">angular cdk v6.0.2</a></li>
+<li><a href="https://www.npmjs.com/package/@angular/animations">angular animations v6.0.1</a></li>
+<li><a href="https://www.npmjs.com/package/@angular/forms">angular forms v6.0.1</a></li>
 </ul>
-<pre class="line-numbers"><code class="language-bash">npm i &#64;angular/cdk &#64;angular/material &#64;angular/flex-layout &#64;angular/animations &#64;angular/forms </code></pre><h2 id="installation">Installation</h2>
+<pre class="line-numbers"><code class="language-bash">npm i &#64;angular/cdk &#64;angular/material &#64;angular/flex-layout &#64;angular/animations &#64;angular/forms </code></pre><h3 id="additional-requirements-material-design-">Additional requirements (Material Design)</h3>
+<ul>
+<li><a href="https://material.angular.io/guide/getting-started#step-4-include-a-theme">angular material theme</a></li>
+<li><a href="https://material.angular.io/guide/getting-started#step-6-optional-add-material-icons">angular material icons</a></li>
+</ul>
+<h2 id="installation">Installation</h2>
 <p>Install above dependencies via <em>npm</em>. </p>
 <p>Now install <code>ngx-material-faq</code> via:</p>
-<pre class="line-numbers"><code class="language-shell">npm install --save ngx-material-faq</code></pre><hr>
+<pre class="line-numbers"><code class="language-shell">npm install -s ngx-material-faq</code></pre><hr>
 <h5 id="systemjs">SystemJS</h5>
 <blockquote>
 <p><strong>Note</strong>:If you are using <code>SystemJS</code>, you should adjust your configuration to point to the UMD bundle.
@@ -350,33 +353,40 @@ map: {
 
 Once installed you need to import the main module:
 ```js
-import { LibModule } from &#39;ngx-material-faq&#39;;</code></pre><p>The only remaining part is to list the imported module in your application module. The exact method will be slightly
-different for the root (top-level) module for which you should end up with the code similar to (notice <code>LibModule .forRoot()</code>):</p>
-<pre class="line-numbers"><code class="language-js">import { LibModule } from &#39;ngx-material-faq&#39;;
+import { NgxMaterialFaqModule } from &#39;ngx-material-faq&#39;;</code></pre><p>The only remaining part is to list the imported module in your application module. The exact method will be slightly
+different for the root (top-level) module for which you should end up with the code similar to (notice <code>NgxMaterialFaqModule .forRoot()</code>):</p>
+<pre class="line-numbers"><code class="language-js">import { NgxMaterialFaqModule } from &#39;ngx-material-faq&#39;;
 
 &#64;NgModule({
   declarations: [AppComponent, ...],
-  imports: [LibModule.forRoot(), ...],  
+  imports: [NgxMaterialFaqModule.forRoot(), ...],  
   bootstrap: [AppComponent]
 })
 export class AppModule {
-}</code></pre><p>Other modules in your application can simply import <code>LibModule</code>:</p>
-<pre class="line-numbers"><code class="language-js">import { LibModule } from &#39;ngx-material-faq&#39;;
+}</code></pre><p>Other modules in your application can simply import <code>NgxMaterialFaqModule</code>:</p>
+<pre class="line-numbers"><code class="language-js">import { NgxMaterialFaqModule } from &#39;ngx-material-faq&#39;;
 
 &#64;NgModule({
   declarations: [OtherComponent, ...],
-  imports: [LibModule, ...], 
+  imports: [NgxMaterialFaqModule, ...], 
 })
 export class OtherModule {
 }</code></pre><h2 id="usage">Usage</h2>
 <p>add the <code>ngx-material-faq</code> or the <code>ngx-material-faq-admin</code> element to your template:</p>
 <h3 id="ngx-material-faq">ngx-material-faq</h3>
+<p><strong>This component aims to list the provided frequently asked questions</strong></p>
 <p align="center">
   <img alt="ngx-material-faq" style="text-align: center;"
    src="assets/demo-ngx-material-faq.png">
 </p>
 
-<pre class="line-numbers"><code class="language-html">&lt;ngx-material-faq [faqList]=&quot;list&quot;&gt;&lt;/ngx-material-faq&gt;</code></pre><pre class="line-numbers"><code class="language-typescript">export class HomeComponent implements OnInit {
+<pre class="line-numbers"><code class="language-html">&lt;ngx-material-faq [faqList]=&quot;list&quot;&gt;&lt;/ngx-material-faq&gt;</code></pre><pre class="line-numbers"><code class="language-typescript">import {Component, OnInit, ViewEncapsulation} from &#39;&#64;angular/core&#39;;
+import {FaqItem} from &#39;ngx-material-faq&#39;;
+
+export class HomeComponent implements OnInit {
+
+    ngOnInit() {
+    }
 
   list: FaqItem[] = [
     {
@@ -390,17 +400,22 @@ export class OtherModule {
   ];
 
  }
+</code></pre><h3 id="ngx-material-faq-admin">ngx-material-faq-admin</h3>
+<p><strong>This component is actually for admin purposes, like to add a frequently 
+asked question to the backend, firebase ... and so on..</strong></p>
+<p align="center">
+  <img alt="ngx-material-faq-admin" style="text-align: center;"
+   src="assets/demo-ngx-material-faq-admin.png">
+</p>
 
-### ngx-material-faq-admin
+<pre class="line-numbers"><code class="language-html">&lt;ngx-material-faq-admin [title]=&quot;&#39;Admin&#39;&quot; (onFAQItemAdded)=&quot;onNewFaqItem($event)&quot;&gt;&lt;/ngx-material-faq-admin&gt;</code></pre><p>in your component</p>
+<pre class="line-numbers"><code class="language-typescript">import {Component, OnInit, ViewEncapsulation} from &#39;&#64;angular/core&#39;;
+import {FaqItem} from &#39;ngx-material-faq&#39;;
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img alt=&quot;ngx-material-faq-admin&quot; style=&quot;text-align: center;&quot;
-   src=&quot;assets/demo-ngx-material-faq-admin.png&quot;&gt;
-&lt;/p&gt;
+export class HomeComponent implements OnInit {
 
-```html
-&lt;ngx-material-faq-admin [title]=&quot;&#39;Admin&#39;&quot; (onFAQItemAdded)=&quot;onNewFaqItem($event)&quot;&gt;&lt;/ngx-material-faq-admin&gt;</code></pre><p>in your component</p>
-<pre class="line-numbers"><code class="language-typescript">export class HomeComponent implements OnInit {
+   ngOnInit() {
+      }
 
   faq: FaqItem[] = [];
 
@@ -412,7 +427,7 @@ export class OtherModule {
  } </code></pre><h3 id="please-checkout-the-full-documentation-here-or-follow-the-official-tutorial">Please checkout the full documentation <a href="https://anthonynahas.github.io/ngx-material-faq/doc/index.html">here</a> or follow the official <a href="https://anthonynahas.github.io/ngx-material-faq/getting-started">tutorial</a></h3>
 <h2 id="development">Development</h2>
 <ol>
-<li>clone this <a href="">repo</a></li>
+<li>clone this <a href="https://github.com/AnthonyNahas/ngx-material-faq">repo</a></li>
 <li>Install the dependencies by running <code>npm i</code></li>
 <li>build the library <code>npm run build</code> or <code>gulp build</code>
 To generate all <code>*.js</code>, <code>*.d.ts</code> and <code>*.metadata.json</code> files:</li>
@@ -420,10 +435,10 @@ To generate all <code>*.js</code>, <code>*.d.ts</code> and <code>*.metadata.json
 <pre class="line-numbers"><code class="language-bash">$ npm run build</code></pre><ol start="4">
 <li><p>Link the library </p>
 <ul>
-<li>on windows <code>gulp link</code> or <code>locally npx gulp link</code></li>
+<li>on windows <code>gulp link</code> or locally <code>npx gulp link</code></li>
 <li><p>on mac/linux <code>sudo gulp link</code> or locally <code>sudo npx gulp link</code></p>
 </li>
-<li><p>Navigate to the demo app</p>
+<li><p>Navigate to the demo app&#39;s directory</p>
 </li>
 <li><code>cd demo</code>
 _ <code>npm i</code>
