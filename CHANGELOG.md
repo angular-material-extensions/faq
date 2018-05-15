@@ -1,5 +1,15 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/anthonynahas/ngx-material-faq/compare/v1.0.0...v2.0.0) (2018-05-15)
+
+
+### Features
+
+* **ngx-material-faq:** support angular v6 | material v6 and rxjs v6 ([c7ce34f](https://github.com/anthonynahas/ngx-material-faq/commit/c7ce34f))
+
+
+
 <a name="1.0.0"></a>
-# 1.0.0 (2018-04-26)
+# [1.0.0](https://github.com/anthonynahas/ngx-material-faq/compare/1b919a8...v1.0.0) (2018-04-26)
 
 
 ### Features

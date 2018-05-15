@@ -1,7 +1,7 @@
 {
   "name": "ngx-material-faq",
   "description": "Angular Library built with material design in order to provide a reusable faq (frequently asked questions) component for every project. Ask, Answer and List",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/anthonynahas/ngx-material-faq",
   "author": {
     "name": "anthonynahas",
