@@ -25,14 +25,14 @@
 View all the directives in action at https://anthonynahas.github.io/ngx-material-faq
 
 ## Dependencies
-* [Angular v6.0.1](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0) - Angular V6 - Material V6 are now supported
+* [Angular v6.x](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0) - Angular V6 - Material V6 are now supported
 
 ### Requirements (peer dependencies):
 - [angular flex-layout v6.0.0-beta.15](https://www.npmjs.com/package/@angular/flex-layout)
 - [angular material v6.0.2](https://www.npmjs.com/package/@angular/material)
 - [angular cdk v6.0.2](https://www.npmjs.com/package/@angular/cdk)
-- [angular animations v6.0.1](https://www.npmjs.com/package/@angular/animations)
-- [angular forms v6.0.1](https://www.npmjs.com/package/@angular/forms)
+- [angular animations v6.0.2](https://www.npmjs.com/package/@angular/animations)
+- [angular forms v6.0.2](https://www.npmjs.com/package/@angular/forms)
 
 ```bash
 npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations @angular/forms 
