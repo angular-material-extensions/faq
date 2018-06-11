@@ -1,15 +1,15 @@
 {
-  "name": "ngx-material-faq",
+  "name": "@angular-material-extensions/faq",
   "description": "Angular Library built with material design in order to provide a reusable faq (frequently asked questions) component for every project. Ask, Answer and List",
   "version": "2.0.1",
-  "homepage": "https://github.com/anthonynahas/ngx-material-faq",
+  "homepage": "https://github.com/angular-material-extensions/faq",
   "author": {
     "name": "anthonynahas",
     "url": "https://github.com/anthonynahas"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/anthonynahas/ngx-material-faq.git"
+    "url": "git://github.com/angular-material-extensions/faq.git"
   },
   "license": "MIT",
   "keywords": [
@@ -20,17 +20,19 @@
     " material",
     " asking",
     " questions",
-    " answers"
+    " answers",
+    "material extensions",
+    "material design"
   ],
   "bugs": {
-    "url": "https://github.com/anthonynahas/ngx-material-faq/issues"
+    "url": "https://github.com/angular-material-extensions/faq/issues"
   },
   "private": true,
   "scripts": {
     "start": "gulp build",
     "test": " gulp test",
     "demo": " gulp build:demo",
-    "check-travis": " travis-status --repo=anthonynahas/ngx-material-faq --branch=master --fail-pending || echo 'Not yet passing'"
+    "check-travis": " travis-status --repo=angular-material-extensions/faq --branch=master --fail-pending || echo 'Not yet passing'"
   },
   "dependencies": {
     "@angular/animations": "^6.0.4",
@@ -59,7 +61,7 @@
     "awesome-typescript-loader": "^5.0.0",
     "codelyzer": "^4.3.0",
     "commitplease": "3.2.0",
-    "conventional-github-releaser": "^3.1.2",
+    "conventional-github-releaser": "2.0.2",
     "core-js": "^2.5.7",
     "css-loader": "0.28.11",
     "cssnano": "3.10.0",

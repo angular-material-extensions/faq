@@ -1,1 +1,1 @@
-export * from './module/ngx-material-faq.module';
+export * from './module/mat-faq.module';

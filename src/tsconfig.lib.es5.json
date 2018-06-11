@@ -13,8 +13,8 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "genDir": "../tmp/lib-gen-dir/",
-    "flatModuleOutFile": "ngx-material-faq.js",
-    "flatModuleId": "ngx-material-faq",
+    "flatModuleOutFile": "faq.js",
+    "flatModuleId": "@angular-material-extensions/faq",
     "annotateForClosureCompiler": true
   }
 }

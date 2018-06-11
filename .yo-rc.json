@@ -3,10 +3,10 @@
     "version": "5.7.1",
     "authorName": "anthonynahas",
     "authorEmail": "anthony.na@hotmail.de",
-    "githubUsername": "anthonynahas",
-    "githubRepoName": "ngx-material-faq",
-    "projectName": "ngx-material-faq",
-    "projectVersion": "0.0.1",
+    "githubUsername": "angular-material-extensions",
+    "githubRepoName": "faq",
+    "projectName": "faq",
+    "projectVersion": "0.0.2",
     "projectDescription": "Angular Library built with material design in order to provide a reusable faq (frequently asked questions) component for every project. Ask, Answer and List",
     "projectKeywords": [
       "ngx",
@@ -16,7 +16,9 @@
       " material",
       " asking",
       " questions",
-      " answers"
+      " answers",
+      "material extensions",
+      "material design"
     ],
     "ngVersion": "5.0.0",
     "ngModules": [

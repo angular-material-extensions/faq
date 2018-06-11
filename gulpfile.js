@@ -78,8 +78,8 @@ const argv = yargs
   .argv;
 
 const config = {
-  libraryName: 'ngx-material-faq',
-  unscopedLibraryName: 'ngx-material-faq',
+  libraryName: '@angular-material-extensions/faq',
+  unscopedLibraryName: 'faq',
   allSrc: 'src/**/*',
   allTs: 'src/**/!(*.spec).ts',
   allSass: 'src/**/*.+(scss|sass)',
@@ -654,10 +654,10 @@ gulp.task('create-new-tag', (cb) => {
 
 // Build and then Publish 'dist' folder to NPM
 gulp.task('npm-publish', ['build'], () => {
-  return execExternalCmd('npm', `publish ${config.outputDir}`)
+  return execExternalCmd('npm', `publish ${config.outputDir} --access public`)
 });
 
-// Perfom pre-release checks (no actual release)
+// Perform pre-release checks (no actual release)
 gulp.task('pre-release', cb => {
   readyToRelease();
   cb();
