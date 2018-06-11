@@ -2,13 +2,13 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {By} from '@angular/platform-browser';
 import {DebugElement} from '@angular/core';
 
-import {NgxMaterialFaqComponent} from './ngx-material-faq.component';
+import {MatFaqComponent} from './mat-faq.component';
 import {MatExpansionModule, MatToolbarModule} from '@angular/material';
 
-describe('NgxMaterialFaqComponent', function () {
+describe('MatFaqComponent', function () {
   let de: DebugElement;
-  let comp: NgxMaterialFaqComponent;
-  let fixture: ComponentFixture<NgxMaterialFaqComponent>;
+  let comp: MatFaqComponent;
+  let fixture: ComponentFixture<MatFaqComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -16,13 +16,13 @@ describe('NgxMaterialFaqComponent', function () {
         MatToolbarModule,
         MatExpansionModule
       ],
-      declarations: [NgxMaterialFaqComponent]
+      declarations: [MatFaqComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxMaterialFaqComponent);
+    fixture = TestBed.createComponent(MatFaqComponent);
     comp = fixture.componentInstance;
     de = fixture.debugElement.query(By.css('p.description'));
   });
@@ -31,7 +31,5 @@ describe('NgxMaterialFaqComponent', function () {
 
   it('should have expected <p> text', () => {
     fixture.detectChanges();
-    // const p = de.nativeElement;
-    // expect(p.textContent).toEqual('Angular Library built with material design in order to provide a reusable faq (frequently asked questions) component for every project. Ask, Answer and List');
   });
 });

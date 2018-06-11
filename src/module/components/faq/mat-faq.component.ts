@@ -2,11 +2,11 @@ import {Component, Input} from '@angular/core';
 import {FaqItem} from '../../faq.item';
 
 @Component({
-  selector: 'ngx-material-faq',
-  templateUrl: './ngx-material-faq.component.html',
-  styleUrls: ['./ngx-material-faq.component.scss']
+  selector: 'mat-faq',
+  templateUrl: './mat-faq.component.html',
+  styleUrls: ['./mat-faq.component.scss']
 })
-export class NgxMaterialFaqComponent {
+export class MatFaqComponent {
 
   @Input()
   title = 'FAQ';
