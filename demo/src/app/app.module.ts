@@ -17,7 +17,7 @@ import {HttpClientModule} from '@angular/common/http';
     // Add .withServerTransition() to support Universal rendering.
     // The application ID can be any identifier which is unique on
     // the page.
-    BrowserModule.withServerTransition({appId: 'ngx-material-faq-demo-id'}),
+    BrowserModule.withServerTransition({appId: 'faq-demo-id'}),
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,

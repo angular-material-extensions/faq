@@ -1,6 +1,6 @@
 import { NgxMaterialFaqDemoPage } from './app.po';
 
-describe('ngx-material-faq-demo App', () => {
+describe('faq-demo App', () => {
   let page: NgxMaterialFaqDemoPage;
 
   beforeEach(() => {

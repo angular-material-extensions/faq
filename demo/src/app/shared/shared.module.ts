@@ -18,16 +18,17 @@ import {
 } from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatFaqModule} from '@angular-material-extensions/faq';
+
 import {DisqusModule} from 'ngx-disqus';
 import {HighlightModule} from 'ngx-highlightjs';
 import {NgxMaterialPagesModule} from 'ngx-material-pages';
-import {NgxMaterialFaqModule} from 'ngx-material-faq';
 
 @NgModule({
   imports: [
     RouterModule,
     NgbCollapseModule.forRoot(),
-    NgxMaterialFaqModule.forRoot(),
+    MatFaqModule.forRoot(),
     NgxMaterialPagesModule.forRoot(),
     DisqusModule.forRoot('ngx-material-faq'),
     HighlightModule.forRoot(),
@@ -48,7 +49,7 @@ import {NgxMaterialFaqModule} from 'ngx-material-faq';
     HeaderComponent,
     FooterComponent,
     ContentWrapperComponent,
-    NgxMaterialFaqModule,
+    MatFaqModule,
     NgxMaterialPagesModule,
     DisqusModule,
     HighlightModule,

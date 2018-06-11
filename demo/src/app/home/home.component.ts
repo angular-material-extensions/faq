@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Title} from '@angular/platform-browser';
-import {FaqItem} from 'ngx-material-faq';
+import {FaqItem} from '@angular-material-extensions/faq';
 
 @Component({
   selector: 'app-home',
@@ -85,7 +85,8 @@ export class HomeComponent implements OnInit {
     },
     {
       question: 'How do I .preventDefault() or .stopPropagation()?',
-      answer: 'All ng-click and related bindings inject a $event object that you can call things like .preventDefault() or even pass the object to your methods'
+      answer: 'All ng-click and related bindings inject a $event object that you can call things like ' +
+      '.preventDefault() or even pass the object to your methods'
     },
   ];
 
@@ -93,7 +94,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle('Home | ngx-material-faq');
+    this.titleService.setTitle('@angular-material-extensions/faq');
   }
 
   onNewFaqItem(faqItem: FaqItem) {

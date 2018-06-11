@@ -194,7 +194,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle('Getting Started | ngx-material-faq');
+    this.titleService.setTitle('Getting Started | faq');
   }
 
   onNewFaqItem(faqItem: FaqItem) {

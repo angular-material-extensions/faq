@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm link ngx-material-faq"
+    "postinstall": "npm link @angular-material-extensions/faq"
   },
   "private": true,
   "dependencies": {
