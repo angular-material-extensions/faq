@@ -1,3 +1,8 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/anthonynahas/ngx-material-faq/compare/v2.0.0...v2.0.1) (2018-06-11)
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/anthonynahas/ngx-material-faq/compare/v1.0.0...v2.0.0) (2018-05-15)
 
