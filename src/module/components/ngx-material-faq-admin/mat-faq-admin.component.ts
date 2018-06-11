@@ -2,11 +2,11 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FaqItem} from '../../faq.item';
 
 @Component({
-  selector: 'ngx-material-faq-admin',
-  templateUrl: './ngx-material-faq-admin.component.html',
-  styleUrls: ['./ngx-material-faq-admin.component.scss']
+  selector: 'mat-faq-admin',
+  templateUrl: './mat-faq-admin.component.html',
+  styleUrls: ['./mat-faq-admin.component.scss']
 })
-export class NgxMaterialFaqAdminComponent {
+export class MatFaqAdminComponent {
 
   @Input()
   title = 'Admin';

@@ -2,15 +2,15 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {By} from '@angular/platform-browser';
 import {DebugElement} from '@angular/core';
 
-import {NgxMaterialFaqAdminComponent} from './ngx-material-faq-admin.component';
+import {MatFaqAdminComponent} from './mat-faq-admin.component';
 import {MatButtonModule, MatCardModule, MatExpansionModule, MatIconModule, MatInputModule, MatToolbarModule} from '@angular/material';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('NgxMaterialFaqComponent', function () {
   let de: DebugElement;
-  let comp: NgxMaterialFaqAdminComponent;
-  let fixture: ComponentFixture<NgxMaterialFaqAdminComponent>;
+  let comp: MatFaqAdminComponent;
+  let fixture: ComponentFixture<MatFaqAdminComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -25,13 +25,13 @@ describe('NgxMaterialFaqComponent', function () {
         MatIconModule,
         MatExpansionModule,
       ],
-      declarations: [NgxMaterialFaqAdminComponent]
+      declarations: [MatFaqAdminComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxMaterialFaqAdminComponent);
+    fixture = TestBed.createComponent(MatFaqAdminComponent);
     comp = fixture.componentInstance;
     de = fixture.debugElement.query(By.css('p.description'));
   });
