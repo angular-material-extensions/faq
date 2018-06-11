@@ -13,6 +13,7 @@
 [![Greenkeeper Badge](https://badges.greenkeeper.io/anthonynahas/ngx-material-faq.svg)](https://greenkeeper.io/)
 [![license](https://img.shields.io/github/license/anthonynahas/ngx-material-faq.svg?style=flat-square)](https://github.com/AnthonyNahas/ngx-material-faq/blob/master/LICENSE)
 
+> This project has been moved to [@angular-material-extensions/faq](https://github.com/angular-material-extensions/faq)
 
 <p align="center">
   <img alt="ngx-material-faq" style="text-align: center;"
@@ -205,7 +206,7 @@ $ npm run lint
 - [ngx-material-pages](https://github.com/AnthonyNahas/ngx-material-pages)
 - [ngx-material-password-strength](https://github.com/AnthonyNahas/ngx-material-password-strength)
 - [ngx-material-contacts](https://github.com/AnthonyNahas/ngx-material-contacts)
-- [ngx-combination-generator](https://github.com/AnthonyNahas/combination-generator)
+- [@angular-material-extensions/combination-generator](https://github.com/angular-material-extensions/combination-generator)
 
 
 ## License
