@@ -18,12 +18,12 @@
 
 <p align="center">
   <img alt="@angular-material-extensions/faq" style="text-align: center;"
-   src="assets/demo.gif">
+   src="https://raw.githubusercontent.com/angular-material-extensions/faq/HEAD/assets/demo.gif">
 </p>
 
 ## Built by and for developers :heart:
 Do you have any question or suggestion ? Please do not hesitate to contact us!
-Alternatively, provide a PR | open an appropriate issue [here](https://github.com/angular-material-extensions/contacts/issues)
+Alternatively, provide a PR | open an appropriate issue [here](https://github.com/angular-material-extensions/faq/issues)
 
 If did you like this project, support [angular-material-extensions](https://github.com/angular-material-extensions) 
 by starring :star: and sharing it :loudspeaker:
@@ -47,12 +47,12 @@ by starring :star: and sharing it :loudspeaker:
 
 ## [Demo](https://angular-material-extensions.github.io/faq)
 
-View all the directives in action at [https://angular-material-extensions.github.io/faq](https://angular-material-extensions.github.io/faq)
+View all the directives and components in action at [https://angular-material-extensions.github.io/faq](https://angular-material-extensions.github.io/faq)
 
 <a name="dependencies"/>
 
 ## Dependencies
-* [Angular v6.x](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0) - Angular V6 - Material V6 are now supported
+* [Angular v6.x](https://angular.io) (*requires* Angular 2 or higher) - Angular V6 - Material V6 are now supported
 
 <a name="peerDependencies"/>
 
@@ -166,7 +166,7 @@ add the `mat-faq` or the `mat-faq-admin` element to your template:
 
 <p align="center">
   <img alt="@angular-material-extensions/faq" style="text-align: center;"
-   src="assets/demo-mat-faq.png">
+   src="https://raw.githubusercontent.com/angular-material-extensions/faq/HEAD/assets/demo-mat-faq.png">
 </p>
 
 ```html
@@ -204,7 +204,7 @@ asked question to the backend, firebase ... and so on..**
 
 <p align="center">
   <img alt="mat-faq-admin" style="text-align: center;"
-   src="assets/demo-mat-faq-admin.png">
+   src="https://raw.githubusercontent.com/angular-material-extensions/faq/HEAD/assets/demo-mat-faq-admin.png">
 </p>
 
 ```html
@@ -235,8 +235,8 @@ export class HomeComponent implements OnInit {
 
 ## [Documentation](https://angular-material-extensions.github.io/faq/doc/index.html)
 
-Please checkout the full documentation [here](https://anthonynahas.github.io/@angular-material-extensions/faq/doc/index.html) 
-or follow the official [tutorial](https://anthonynahas.github.io/@angular-material-extensions/faq/getting-started)
+Please checkout the full documentation [here](https://angular-material-extensions.github.io//faq/doc/index.html) 
+or follow the official [tutorial](https://angular-material-extensions.github.io//faq/getting-started)
 
 <a name="run-demo-app-locally"/>
 
@@ -244,7 +244,7 @@ or follow the official [tutorial](https://anthonynahas.github.io/@angular-materi
 
 - [clone this repo](https://github.com/angular-material-extensions/faq.git) by running
 ```bash
-$ git clone https://github.com/AnthonyNahas/ngx-auth-firebaseui.git
+$ git clone https://github.com/angular-material-extensions/faq.gi
 ```
 
 - link the **@angular-material-extensions/faq** package
@@ -321,7 +321,7 @@ $ npm run lint
 ## Other Angular Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
 - [ngx-material-pages](https://github.com/AnthonyNahas/ngx-material-pages)
-- [ngx-material-password-strength](https://github.com/AnthonyNahas/ngx-material-password-strength)
+- [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)
 - [@angular-material-extensions/contacts](https://github.com/angular-material-extensions/contacts)
 - [@angular-material-extensions/combination-generator](https://github.com/angular-material-extensions/combination-generator)
 
