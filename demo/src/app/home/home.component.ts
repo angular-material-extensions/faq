@@ -1,6 +1,7 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Title} from '@angular/platform-browser';
 import {FaqItem} from '@angular-material-extensions/faq';
+import sdk from '@stackblitz/sdk';
 
 @Component({
   selector: 'app-home',
@@ -95,6 +96,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.titleService.setTitle('@angular-material-extensions/faq');
+  }
+
+  editOnStackBlitz() {
+    sdk.openGithubProject('angular-material-extensions/faq/tree/master/demo');
   }
 
   onNewFaqItem(faqItem: FaqItem) {
