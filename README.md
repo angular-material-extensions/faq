@@ -25,7 +25,7 @@
 Do you have any question or suggestion ? Please do not hesitate to contact us!
 Alternatively, provide a PR | open an appropriate issue [here](https://github.com/angular-material-extensions/faq/issues)
 
-If did you like this project, support [angular-material-extensions](https://github.com/angular-material-extensions) 
+If you like this project, support [angular-material-extensions](https://github.com/angular-material-extensions) 
 by starring :star: and sharing it :loudspeaker:
 
 ## Table of Contents
@@ -58,10 +58,10 @@ View all the directives and components in action at [https://angular-material-ex
 
 ### Requirements (peer dependencies):
 - [angular flex-layout v6.0.0-beta.16](https://www.npmjs.com/package/@angular/flex-layout)
-- [angular material v6.2.1](https://www.npmjs.com/package/@angular/material)
-- [angular cdk v6.0.2](https://www.npmjs.com/package/@angular/cdk)
-- [angular animations v6.0.5](https://www.npmjs.com/package/@angular/animations)
-- [angular forms v6.0.5](https://www.npmjs.com/package/@angular/forms)
+- [angular material v6.4.0](https://www.npmjs.com/package/@angular/material)
+- [angular cdk v6.4.0](https://www.npmjs.com/package/@angular/cdk)
+- [angular animations v6.0.9](https://www.npmjs.com/package/@angular/animations)
+- [angular forms v6.0.9](https://www.npmjs.com/package/@angular/forms)
 
 ```bash
 npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations @angular/forms 
@@ -153,9 +153,13 @@ import { MatFaqModule } from '@angular-material-extensions/faq';
 export class OtherModule {
 }
 ```
+
 <a name="usage"/>
 
-## (2) [Usage](https://angular-material-extensions.github.io/faq/getting-started)
+## [Usage](https://angular-material-extensions.github.io/faq/getting-started)
+
+
+angular-material-extensions
 
 add the `mat-faq` or the `mat-faq-admin` element to your template:
 
@@ -231,6 +235,7 @@ export class HomeComponent implements OnInit {
   
  } 
 ```
+
 <a name="documentation"/>
 
 ## [Documentation](https://angular-material-extensions.github.io/faq/doc/index.html)
@@ -244,7 +249,7 @@ or follow the official [tutorial](https://angular-material-extensions.github.io/
 
 - [clone this repo](https://github.com/angular-material-extensions/faq.git) by running
 ```bash
-$ git clone https://github.com/angular-material-extensions/faq.gi
+$ git clone https://github.com/angular-material-extensions/faq.git
 ```
 
 - link the **@angular-material-extensions/faq** package
@@ -316,14 +321,21 @@ To lint all `*.ts` files:
 ```bash
 $ npm run lint
 ```
+
+---
+
 <a name="other-angular-libraries"/>
 
 ## Other Angular Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
-- [ngx-material-pages](https://github.com/AnthonyNahas/ngx-material-pages)
+- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
 - [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)
+- [@angular-material-extensions/google-maps-autocomplete](https://github.com/angular-material-extensions/google-maps-autocomplete)
+- [@angular-material-extensions/jumbotron](https://github.com/angular-material-extensions/jumbotron)
 - [@angular-material-extensions/contacts](https://github.com/angular-material-extensions/contacts)
 - [@angular-material-extensions/combination-generator](https://github.com/angular-material-extensions/combination-generator)
+
+---
 
 <a name="support"/>
 
@@ -334,6 +346,7 @@ $ npm run lint
  
  Built by and for developers :heart: we will help you :punch:
 
+---
 
 ## License
 
