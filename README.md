@@ -253,23 +253,8 @@ $ git clone https://github.com/angular-material-extensions/faq.git
 ```
 
 - link the **@angular-material-extensions/faq** package
-use gulp globally
 ```bash
 $ gulp link
-```
-
-use gulp locally
-```bash
-$ npx gulp link
-```
-for some mac os users, you may use the sudo command with gulp
-use gulp with sudo
-```bash
-$ sudo gulp link
-```
-or locally 
-```bash
-$ sudo npx gulp link
 ```
 
 - navigate to the demo app directory
@@ -307,20 +292,14 @@ $ npm run build
 ```
 
 4. Link the library 
-  - on windows `gulp link` or locally `npx gulp link`
-  - on mac/linux `sudo gulp link` or locally `sudo npx gulp link`
+ ```bash
+ $ gulp link
+ ```
   
  5. Navigate to the demo app's directory
   - `cd demo`
   _ `npm i`
   _ `npm start`
-
-extras
-To lint all `*.ts` files:
-
-```bash
-$ npm run lint
-```
 
 ---
 
@@ -328,13 +307,14 @@ $ npm run lint
 
 ## Other Angular Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
-- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
+- [@firebaseui/ng-bootstrap](https://github.com/firebaseui/ng-bootstrap)
+- [ngx-linkifyjs](https://github.com/anthonynahas/ngx-linkifyjs)
 - [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)
+- [@angular-material-extensions/link-preview](https://github.com/angular-material-extensions/link-preview)
+- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
 - [@angular-material-extensions/google-maps-autocomplete](https://github.com/angular-material-extensions/google-maps-autocomplete)
 - [@angular-material-extensions/jumbotron](https://github.com/angular-material-extensions/jumbotron)
 - [@angular-material-extensions/contacts](https://github.com/angular-material-extensions/contacts)
-- [@angular-material-extensions/combination-generator](https://github.com/angular-material-extensions/combination-generator)
-
 ---
 
 <a name="support"/>
@@ -345,6 +325,12 @@ $ npm run lint
 + let us chat on [Gitter](https://gitter.im/angular-material-extensions/Lobby)
  
  Built by and for developers :heart: we will help you :punch:
+
+---
+
+![jetbrains logo](assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
+
+This project is supported by [jetbrains](https://www.jetbrains.com/) with 1 ALL PRODUCTS PACK OS LICENSE incl. [webstorm](https://www.jetbrains.com/webstorm)
 
 ---
 
