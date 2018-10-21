@@ -12,6 +12,8 @@
   "exclude": [
     "testing/*",
     "test.ts",
+    "setupJest.ts",
+    "jestGlobalMocks.ts",
     "**/*.spec.ts"
   ]
 }

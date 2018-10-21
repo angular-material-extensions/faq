@@ -2,6 +2,7 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../tmp/lib-es2015/",
+    "allowSyntheticDefaultImports": true,
     "target": "es2015",
     "rootDir": "./",
     "baseUrl": "",

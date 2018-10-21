@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {FaqItem} from '../../faq.item';
+import {FaqItem} from '../../../module/faq.item';
 
 @Component({
   selector: 'mat-faq-admin',

@@ -10,6 +10,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 // Export module's public API
 export {MatFaqAdminComponent} from './components/ngx-material-faq-admin/mat-faq-admin.component';
 export {MatFaqComponent} from './components/faq/mat-faq.component';
+
 export {FaqItem} from './faq.item';
 
 @NgModule({
@@ -27,16 +28,6 @@ export {FaqItem} from './faq.item';
   ],
   exports:
     [
-
-      FormsModule,
-      ReactiveFormsModule,
-      FlexLayoutModule,
-      MatCardModule,
-      MatToolbarModule,
-      MatButtonModule,
-      MatInputModule,
-      MatIconModule,
-      MatExpansionModule,
       MatFaqAdminComponent,
       MatFaqComponent
     ],

@@ -1,8 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { DebugElement } from '@angular/core';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { HomeComponent } from './home.component';
-import {  NgxMaterialFaqModule  } from 'ngx-material-faq';
+import {MatFaqModule} from '@angular-material-extensions/faq';
+import {HomeComponent} from './home.component';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -11,7 +10,7 @@ describe('HomeComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        NgxMaterialFaqModule.forRoot(),],
+        MatFaqModule.forRoot()],
       declarations: [HomeComponent]
     })
       .compileComponents()

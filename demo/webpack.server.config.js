@@ -10,8 +10,9 @@ module.exports = {
   },
   resolve: { extensions: ['.js', '.ts'] },
   target: 'node',
-  // this makes sure we include node_modules and other 3rd party libraries
-  externals: [/(node_modules|main\..*\.js)/],
+  resolve: { extensions: ['.ts', '.js'] },
+  // Make sure we include all node_modules etc
+  externals: [/node_modules/],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
