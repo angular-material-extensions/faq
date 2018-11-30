@@ -1,4 +1,12 @@
-<a name="3.0.2"></a>
+## [3.0.3](https://github.com/angular-material-extensions/faq/compare/v3.0.2...v3.0.3) (2018-11-30)
+
+
+### Features
+
+* **package:** supporting angular v7 ([c87b8e4](https://github.com/angular-material-extensions/faq/commit/c87b8e4))
+
+
+
 ## [3.0.2](https://github.com/angular-material-extensions/faq/compare/v3.0.1...v3.0.2) (2018-09-02)
 
 
@@ -9,22 +17,18 @@
 
 
 
-<a name="3.0.1"></a>
 ## [3.0.1](https://github.com/angular-material-extensions/faq/compare/v3.0.0...v3.0.1) (2018-06-14)
 
 
 
-<a name="3.0.0"></a>
 # [3.0.0](https://github.com/angular-material-extensions/faq/compare/v2.0.1...v3.0.0) (2018-06-11)
 
 
 
-<a name="2.0.1"></a>
 ## [2.0.1](https://github.com/angular-material-extensions/faq/compare/v2.0.0...v2.0.1) (2018-06-11)
 
 
 
-<a name="2.0.0"></a>
 # [2.0.0](https://github.com/angular-material-extensions/faq/compare/v1.0.0...v2.0.0) (2018-05-15)
 
 
@@ -34,7 +38,6 @@
 
 
 
-<a name="1.0.0"></a>
 # [1.0.0](https://github.com/angular-material-extensions/faq/compare/1b919a8...v1.0.0) (2018-04-26)
 
 
