@@ -29,7 +29,7 @@ import {NgxMaterialPagesModule} from 'ngx-material-pages';
     NgbCollapseModule.forRoot(),
     MatFaqModule.forRoot(),
     NgxMaterialPagesModule.forRoot(),
-    HighlightModule.forRoot(),
+    HighlightModule,
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
