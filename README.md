@@ -52,16 +52,16 @@ View all the directives and components in action at [https://angular-material-ex
 <a name="dependencies"/>
 
 ## Dependencies
-* [Angular v6.x](https://angular.io) (*requires* Angular 2 or higher) - Angular V6 - Material V6 are now supported
+* [Angular v7.x](https://angular.io) (*requires* Angular 2 or higher) - Angular V7 - Material V6 are now supported
 
 <a name="peerDependencies"/>
 
 ### Requirements (peer dependencies):
-- [angular flex-layout v6.0.0-beta.16](https://www.npmjs.com/package/@angular/flex-layout)
-- [angular material v6.4.0](https://www.npmjs.com/package/@angular/material)
-- [angular cdk v6.4.0](https://www.npmjs.com/package/@angular/cdk)
-- [angular animations v6.0.9](https://www.npmjs.com/package/@angular/animations)
-- [angular forms v6.0.9](https://www.npmjs.com/package/@angular/forms)
+- [angular flex-layout v7.x](https://www.npmjs.com/package/@angular/flex-layout)
+- [angular material v7.x](https://www.npmjs.com/package/@angular/material)
+- [angular cdk v7.x](https://www.npmjs.com/package/@angular/cdk)
+- [angular animations v7.x](https://www.npmjs.com/package/@angular/animations)
+- [angular forms v7.x](https://www.npmjs.com/package/@angular/forms)
 
 ```bash
 npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations @angular/forms 
@@ -118,7 +118,7 @@ npm install -s @angular-material-extensions/faq
 In your systemjs config file, `map` needs to tell the System loader where to look for `@angular-material-extensions/faq`:
 ```js
 map: {
-  '@angular-material-extensions/faq': 'node_modules/@angular-material-extensions/faq/bundles/@angular-material-extensions/faq.umd.js',
+  '@angular-material-extensions/faq': 'node_modules/@angular-material-extensions/faq/bundles/faq.umd.js',
 }
 ```
 ---
@@ -284,8 +284,6 @@ $ ng serve --open
 
 1. clone this [repo](https://github.com/angular-material-extensions/faq.git)
 2. Install the dependencies by running `npm i`
-3. build the library `npm run build` or `gulp build`
-To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
 
 ```bash
 $ npm run build
