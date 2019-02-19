@@ -1,3 +1,15 @@
+## [3.0.4](https://github.com/angular-material-extensions/faq/compare/v3.0.3...v3.0.4) (2019-02-19)
+
+
+### Bug Fixes
+
+* **demo:** updated angular to v7.2.5 and material to v7.3.2 + npm link script ([ccb9e99](https://github.com/angular-material-extensions/faq/commit/ccb9e99))
+* **demo:** upgraded ngx-highlightjs to v3 and added hammerjs to the project ([7c0be48](https://github.com/angular-material-extensions/faq/commit/7c0be48))
+* **package:** updated angular to v7.2.5 and material to v7.3.2 and jest + other deps ([4b1f31f](https://github.com/angular-material-extensions/faq/commit/4b1f31f))
+* **package:** updated rollup to v1 ([65fb59a](https://github.com/angular-material-extensions/faq/commit/65fb59a))
+
+
+
 ## [3.0.3](https://github.com/angular-material-extensions/faq/compare/v3.0.2...v3.0.3) (2018-11-30)
 
 
