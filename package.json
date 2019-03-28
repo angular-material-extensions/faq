@@ -12,6 +12,7 @@
     "url": "git://github.com/angular-material-extensions/faq.git"
   },
   "license": "MIT",
+  "schematics": "./schematics/collection.json",
   "keywords": [
     "ngx",
     " angular",
@@ -43,6 +44,7 @@
     "@angular/material": "^7.3.6"
   },
   "devDependencies": {
+    "@angular-devkit/schematics": "^7.3.7",
     "@angular/animations": "^7.2.11",
     "@angular/compiler": "^7.2.11",
     "@angular/compiler-cli": "^7.2.11",
@@ -62,6 +64,7 @@
     "codelyzer": "^4.5.0",
     "commitplease": "3.2.0",
     "conventional-github-releaser": "2.0.2",
+    "copy-webpack-plugin": "^5.0.2",
     "core-js": "^2.6.0",
     "css-loader": "^2.1.1",
     "cssnano": "^4.1.7",
@@ -95,12 +98,14 @@
     "run-sequence": "2.2.1",
     "rxjs": "^6.3.3",
     "sass-loader": "7.1.0",
+    "schematics-utilities": "^1.1.2",
     "source-map-loader": "0.2.4",
     "to-string-loader": "1.1.5",
     "travis-status": "^3.0.1",
     "tsickle": "^0.34.0",
     "tslint": "~5.12.1",
     "typescript": "~3.2.4",
+    "webpack-node-externals": "^1.7.2",
     "yargs": "12.0.5",
     "zone.js": "^0.8.26"
   },

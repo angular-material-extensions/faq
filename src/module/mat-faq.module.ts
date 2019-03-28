@@ -34,6 +34,9 @@ export {FaqItem} from './faq.item';
   declarations: [MatFaqAdminComponent, MatFaqComponent]
 })
 export class MatFaqModule {
+  /**
+   * @deprecated since version 3.1.0
+   */
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: MatFaqModule,
