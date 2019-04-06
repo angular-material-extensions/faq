@@ -45,7 +45,7 @@
     "@stackblitz/sdk": "^1.2.0",
     "angulartics2": "^7.2.3",
     "bootstrap": "^4.1.3",
-    "core-js": "^2.6.0",
+    "core-js": "^3.0.1",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "highlight.js": "^9.15.6",
