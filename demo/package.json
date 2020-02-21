@@ -41,7 +41,7 @@
     "@angular/pwa": "^0.13.7",
     "@angular/router": "7.2.5",
     "@angular/service-worker": "7.2.5",
-    "@ng-bootstrap/ng-bootstrap": "^4.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^6.0.0",
     "@stackblitz/sdk": "^1.2.0",
     "angulartics2": "^7.2.3",
     "bootstrap": "^4.1.3",
