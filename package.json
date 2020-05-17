@@ -58,7 +58,7 @@
     "@types/node": "^10.14.4",
     "angular-cli-ghpages": "^0.5.3",
     "angular2-template-loader": "^0.6.2",
-    "autoprefixer": "^9.5.0",
+    "autoprefixer": "^9.8.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-jest": "^24.5.0",
     "codelyzer": "^4.5.0",
